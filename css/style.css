@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+/* CSS  Font*/
+h6{
+    font-size: 20px;
+}
+
+header{
+    padding: 10px;
+    top: 0;
+    position: sticky;
+    overflow: hidden;
+    background-color: white;
+}
+.logo{
+    width: 150px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.menu ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.9);
+    display: block;
+
+}
+.menu ul li a:hover{
+    background-color: rgba(255,255,255,0.5);
+	color: #062ae8;
+}
+.textBanner{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.textBanner h2{
+    font-size: 48px;
+    color: black;
+    margin: 0;
+}
+.textBanner p{
+    margin: 5px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.imgBanner img{
+    width: 80%;
+}
+.btnBuyNow button{
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.btnBuyNow button:hover{
+    color: black;
+    background-color: white;
+}
+
+.giaOrderNow p{
+    margin: 0;
+}
+.giaOrder{
+    color: rgb(255, 96, 0);
+    font-size: 45px;
+}
+.btnOrderNow button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+.btnOrderNow button:hover{
+    background-color: white;
+    color: black;
+}
+.leftBanner{
+    margin-top: 20px;
+}
+.khoangTrang{
+    width: 100%;
+    min-height: 100px;
+    background-color: #f4f4f4;
+    margin-top: -55px;
+}
+#theBook{
+    background-color: #f4f4f4;
+}
+#theBook .container .row .col-3 img{
+    width: 100%;
+}
+#theBook .container .row .col-3 p{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+.text-center{
+    text-align: center;
+}
+.textTheBook1{
+    margin-top: 10px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.textTheBook2{
+    margin-top: -30px;
+    margin-bottom: 10px;
+    padding: 50px 30px 30px 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+.box2TheBook{
+    padding-top: 20px;
+}
+.box2TheBook h2{
+    margin: 0;
+    font-size: 48px;
+    color: black;
+}
+.box2TheBook p{
+    font-size: 20px;
+}
+.box2TheBook button{
+    padding: 10px 40px;
+    background-color: #2058fe;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-color: #2058fe;
+    border-radius: 20px;
+}
+.box2TheBook button:hover{
+    background-color: white;
+    color: #2058fe;
+}
+.box2TheBook h6{
+    font-size: 20px;
+}
+.eBook-heading-white{
+    background-image: url(../images/ebook3-heading-bgwhite.png);
+}
+.eBook-heading-gray{
+    background-image: url(../images/ebook3-heading-bggray.png);
+}
+.eBook-heading-blue{
+    background-image: url(../images/ebook3-heading-bgblue.png);
+}
+.eBook-heading{
+    display: inline-block;
+    padding: 8px 0 8px 20px;
+    margin-left: -20px;
+    background-repeat: no-repeat;
+}
+#bioAuthor{
+    width: 100%;
+    min-height: 800px;
+    background-image: url(../images/ebook3-section-bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bioAuthor h6{
+    font-size: 20px;
+}
+#bioAuthor h2{
+    margin: 0;
+    font-size: 48px;
+    color: black;
+}
+#bioAuthor P{
+    font-size: 20px;
+}
+#bioAuthor h3{
+    color: black;
+    font-size: 32px;
+}
+#bioAuthor .boxTextBio{
+    padding-top: 20px;
+}
+.boxTextBio i{
+    padding-right: 15px;
+}
+
+#Sample{
+    background-color: #f4f4f4;
+}
+#Sample h6{
+    font-size: 20px;
+}
+#Sample h2{
+    margin: 0;
+    font-size: 48px;
+    color: black;
+}
+#Sample h4{
+    font-size: 34px;
+}
+#Sample p{
+    font-size: 20px;
+}
+
+.giaDownload{
+    color: rgb(255, 96, 0);
+    font-size: 45px !important;
+}
+.textDownload{
+    margin-right: 50px;
+}
+.textDownload p{
+    margin: 0;
+}
+.btnDownload button{
+    padding: 20px 60px;
+    background-color: #ff6000;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: #ff6000;
+    color: white;
+}
+.btnDownload button:hover{
+    background-color: white;
+    color: #ff6000;
+}
+
+#tableOfContents h6{
+    font-size: 20px;
+}
+#tableOfContents h2{
+    margin: 0;
+    font-size: 48px;
+    color: #2058fe;
+}
+#tableOfContents p{
+    font-size: 20px;
+}
+#tableOfContents h4{
+    margin: 0;
+    font-size: 38px;
+}
+.boxTextNewsletter{
+    background-color: black;
+    padding: 100px 10% 85px;
+    border-radius: 30px 0px 0px 30px;
+    color: white;
+}
+.boxTextNewsletter h6{
+    font-size: 20px;
+}
+.boxTextNewsletter h2{
+    font-size: 48px;
+    margin: 0;
+}
+.boxTextNewsletter p{
+    font-size: 20px;
+}
+.imgNewsletter{
+    width: 100%;
+    height: 525px;
+    background-image: url(../images/ebook3-wrap-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 30px 30px 0px;
+}
+
+#Newsletter .row .col-7{
+    padding-right: 0;
+}
+#Newsletter .row .col-5{
+    padding-left: 0;
+}
+
+input[type=text]{
+    padding: 15px 70px 15px 10px;
+    border-radius: 40px;
+    margin-right: 40px;
+}
+#Newsletter button{
+    padding: 15px 40px;
+    font-size: 20px;
+    background-color: #2058fe;
+    border-radius: 40px;
+    border-color: #2058fe;
+    color: white;
+    font-weight: bold;
+
+}
+#Newsletter button:hover{
+    color: #2058fe;
+    background-color: white;
+}
+
+#orderTheBook h6{
+    font-size: 20px;
+}
+.giaOrderBook p{
+    margin: 0;
+}
+.btnOrderBook button{
+    margin-left: 30px;
+    padding: 20px 60px;
+    background-color: #ff6000;
+    font-size: 20px;
+    border-radius: 30px;
+    border-color: #ff6000;
+    color: white;
+}
+.btnOrderBook button:hover{
+    background-color: white;
+    color: #ff6000;
+}
+
+#bookPlatforms{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-image: url(../images/ebook3-section-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.textPlatforms{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+.iconPlatforms{
+    text-align: center;
+    color: white;
+}
+.iconPlatforms i{
+    margin-right: 30px;
+}
+
+/* CSS Footer */
+
+footer{
+    background-color: black;
+}
+footer h6{
+    color: white;
+}
+footer .footerLink h6{
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer .footerLink ul{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+footer .footerLink ul li a{
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    padding: 10px 10px 10px 0px;
+}
+footer .footerLink ul li a:hover{
+    color: rgba(204, 204, 204, 0.932);
+}
+
+footer .social h6{
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+}
+
+footer .social .ul{
+    flex-direction: row;
+}
+footer .social ul{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+footer .social ul li{
+    padding: 10px 10px 10px 0px;
+}
+footer .social ul li a{
+    text-decoration: none;
+    color: #666666;
+    padding-left: 5px;
+}
+footer .social ul li a:hover{
+    color: white;
+}
